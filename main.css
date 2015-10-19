@@ -1,28 +1,9 @@
-h3{
-    font-family: 'Oswald', sans-serif;
-    word-spacing: 20px; 
-    font-size: 100px; 
-    color: #B5D1E8;
-    text-align: center; 
-    margin-top: 40px; 
-    background-color: white; 
-    height: 70px;
-    width: 1000px; 
-    padding: 30px; 
-    margin-left: auto; 
-    margin-right: auto; 
-     
-  
-}
-.row2{
-    font-family: Futura, sans-serif; 
+.row2{ 
     font-size: 15px;
     color: #ADAFAA; 
     width: 1400px; 
     height: 600px;
     background-color: white;
-    margin-left: auto; 
-    margin-right: auto; 
 }
 
 a:hover, a:visited, a:link, a:active
@@ -32,11 +13,11 @@ a:hover, a:visited, a:link, a:active
 
 .work{
     background-color: white;
-    width: 1000px; 
-    height: 50px; 
+    width: 400px; 
+    height: 20px; 
     margin: 0 auto; 
-    margin-top: 40px; 
-    padding-right: 50px;
+    margin-top: 0px; 
+    padding-right: 0px;
     font-size: 16px; 
     text-align: center; 
     font-family: futura; 
@@ -49,36 +30,23 @@ a:hover, a:visited, a:link, a:active
 }
 .work li a{
     text-decoration: none; 
-    color: black; 
+    color: black;  
 }
 .hover11 figure img {
 	opacity: 1;
 	-webkit-transition: .3s ease-in-out;
 	transition: .3s ease-in-out;
     width: 350px; 
-    height: 234px; 
-    float: left; 
-    padding: 1px; 
-    padding-left: 65px; 
-    padding-top: 35px; 
+    height: auto; 
+    float: left;  
     position: relative; 
-    padding-bottom: 40px; 
+    
     
 }
 .hover11 figure:hover img {
 	opacity: .5;
 }
-h1{
-    font-family: futura;
-    font-weight: 100; 
-    font-size: 17px; 
-    text-align: center;  
-    width: 300px; 
-    height: 50px; 
-    margin-right: auto; 
-    margin-left: auto; 
-    
-}
+
 .header{
     width: 800px; 
     height: 200px; 
@@ -89,38 +57,53 @@ h1{
 .header img{
     width: 800px; 
     height: 200px; 
-    }
-
-.work li.active-link a{
-    border-bottom: none; text-decoration: line-through;
-}
-
-p{
-    width: 100px; 
-    height: 50px;
-    font-family: futura; 
-    color: black; 
-    font-style: oblique; 
-    font-size: 14px; 
 }
 
 figure {
     width: 350px;
-    height: 300px;
-    position: relative;
+    height: 160px; 
+    position: relative; 
 
 }
 
 figure figcaption {
     position: absolute; 
     bottom: 0;
-    left: 50%;
+    left: 20%; 
     font-family: futura; 
-    font-size: 16px; 
-    color: black; 
-    margin-top: 40px; 
+    font-size: 28px; 
+    color: white; 
     width:200px;  
+    text-transform: uppercase; 
+    font-weight:100;
 
 }
 figure {float: left;}
 
+figure1 {
+    width: 250px;
+    height: 168px;
+    position: relative;
+}
+h1{
+    font-family: futura; 
+    font-weight: 100; 
+    font-size: 30px; 
+}
+.headline-femme{
+    width: 300px; 
+    height: 50px; 
+    margin-left: auto; 
+    margin-right: auto; 
+    margin-top: 30px; 
+
+}
+.brodtext{
+    width: 600px; 
+    height: 110px; 
+    margin-left: auto; 
+    margin-right: auto; 
+    font-family: futura; 
+    
+    
+}
