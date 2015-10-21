@@ -39,8 +39,8 @@ h1{
 }
 .header{
     max-width: 800px; 
-    width: 100%; 
-    height: auto; 
+    width: 100%;
+    height:auto; 
     margin-left: auto; 
     margin-right: auto; 
     padding-top: 50px;
@@ -60,13 +60,14 @@ p{
     color: black; 
     font-size: 14px; 
 }
-img{
+.profil img{
     width: 250px; 
     height: 250px; 
 }
 .profil{
-    width: 260px; 
-    height: 300px; 
+    max-width: 260px;
+    width: 100%; 
+    height: auto; 
     float: center; 
     display: inline-block; 
     vertical-align: top; 
@@ -82,7 +83,6 @@ h2{
 }
 .text{
     max-width: 450px; 
-    width: 100%
     text-align: left; 
     float: right; 
     display: inline-block; 
